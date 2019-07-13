@@ -75,6 +75,7 @@ class LinkedList
 end
 
 
+#returning the head deleiting the node
 
 
 
