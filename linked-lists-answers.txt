@@ -4,20 +4,24 @@ Its a little hard, it took me a week to do it correct
 
 1. What is Spatial Locality and why does it benefit performance?
 
+To reduce the time back and for the processor process to retrieve the data from the memory RAM, the processor,
+get the whole range of memory locations and bring them to the cache memory. This happens if the processors dont find the data on the cache.
+This process takes more time than going to the cache to get the data.
+In a good project the data structure should group together data address that will be accessed together. which will direct the spatial locality.
+The programm should access the memories that are each near the other one to reduce the time.
 
-As we stated earlier, Array entries exist in consecutive memory locations 
-– they’re all right next to each other. It’s cheap to loop over an Array
- because doing so limits the number of RAM lookups. Long story short:
-  in a row of lady-sheep houses, Sherman will find his girlfriend sooner than you can say, “analogy.”
+
+
+
 
 Data from Benchmark tests:
                                user     system      total        real
-Add 10,000 items to array    0.010000   0.000000   0.010000 (  0.002886)
-Append 10,000 items in list  0.000000   0.000000   0.000000 (  0.004532
+Add 10,000 items to array    0.010000   0.000000   0.010000 (  0.002874)
+Append 10,000 items in list  0.000000   0.000000   0.000000 (  0.004536
 
-Access 5,000th item in array 0.000000   0.000000   0.000000 (  0.000272)
-Access 5,000th item in list  0.000000   0.000000   0.000000 (  0.000007)
+Access 5,000th item in array 0.000000   0.000000   0.000000 (  0.000275)
+Access 5,000th item in list  0.000000   0.000000   0.000000 (  0.000006)
 
-Delete 5,000th item in array 0.000000   0.000000   0.000000 (  0.000005)
-Delete 5,000th item in list  0.000000   0.000000   0.000000 (  0.000263)
+Delete 5,000th item in array 0.000000   0.000000   0.000000 (  0.000004)
+Delete 5,000th item in list  0.000000   0.000000   0.000000 (  0.000260)
 
