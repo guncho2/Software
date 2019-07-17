@@ -1,1 +1,13 @@
-Its a little hard, 
+Its a little hard, it took me a week to do it correct
+
+#returning the head deleiting the node
+
+1. What is Spatial Locality and why does it benefit performance?
+
+
+As we stated earlier, Array entries exist in consecutive memory locations 
+– they’re all right next to each other. It’s cheap to loop over an Array
+ because doing so limits the number of RAM lookups. Long story short:
+  in a row of lady-sheep houses, Sherman will find his girlfriend sooner than you can say, “analogy.”
+
+  
