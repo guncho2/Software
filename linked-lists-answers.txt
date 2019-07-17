@@ -10,7 +10,7 @@ This process takes more time than going to the cache to get the data.
 In a good project the data structure should group together data address that will be accessed together. which will direct the spatial locality.
 The programm should access the memories that are each near the other one to reduce the time.
 
-
+xxxxxxxxxxxxxxxx
 
 
 
